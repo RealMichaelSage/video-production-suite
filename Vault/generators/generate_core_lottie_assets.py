@@ -7,8 +7,10 @@ Generates clean, production-ready Lottie JSON animations directly into the vault
 import os
 import json
 
-LOTTIE_DIR = "/Users/michaelsage/Desktop/Vibes/Assets/video_production_vault/lottie_assets"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+LOTTIE_DIR = os.path.join(BASE_DIR, "lottie_assets")
 os.makedirs(LOTTIE_DIR, exist_ok=True)
+
 
 def make_radar_lottie():
     # Rotating radar sweep in Bodymovin JSON format

@@ -9,8 +9,10 @@ import wave
 import struct
 import numpy as np
 
-OUTPUT_DIR = "/Users/michaelsage/Desktop/Vibes/Assets/video_production_vault/sfx_audio"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUTPUT_DIR = os.path.join(BASE_DIR, "sfx_audio")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+
 SAMPLE_RATE = 48000  # Broadcast standard 48kHz
 
 def save_wav(filename, samples):

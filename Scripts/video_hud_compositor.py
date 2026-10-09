@@ -10,9 +10,11 @@ import sys
 import argparse
 import subprocess
 
-VAULT_DIR = "/Users/michaelsage/Desktop/Vibes/Assets/video_production_vault"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+VAULT_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "Vault"))
 DEFAULT_HUD = os.path.join(VAULT_DIR, "hud_overlays/tactical_hud_9x16_60fps.mp4")
 SFX_DIR = os.path.join(VAULT_DIR, "sfx_audio")
+
 
 def composite_video(input_video, output_video, hud_overlay=DEFAULT_HUD, add_sfx=True, opacity=1.0):
     if not os.path.exists(input_video):
