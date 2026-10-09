@@ -59,6 +59,7 @@
 * **[MagicUI](https://magicui.design/):** библиотека интерфейсных моушн-компонентов (`retro-grid`, `animated-beam`, `terminal`, `particles`).
 * **[21st.dev](https://21st.dev/):** открытый реестр компонентов нового поколения, дизайн-систем и моушн-блоков для видео.
 * **[Prompt-Kit](https://www.prompt-kit.com/):** библиотека моушн-примитивов и интерфейсов общения с искусственным интеллектом.
+* **[Canva Design Platform & MCP](https://www.canva.com/):** облачный генератор креативов, презентаций и обложек с официальной интеграцией через Model Context Protocol (`https://mcp.canva.com/mcp`).
 
 ---
 
