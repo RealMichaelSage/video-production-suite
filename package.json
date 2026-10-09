@@ -1,0 +1,25 @@
+{
+  "name": "video-production-suite",
+  "version": "1.0.0",
+  "description": "Autonomous AI Video Production, Kinetic Typography & Tactical HUD Suite by Michael Sage",
+  "main": "Scripts/video_hud_compositor.py",
+  "scripts": {
+    "setup": "bash setup.sh",
+    "preview:captions": "npm run dev --prefix Templates/remotion-captions-themes/test-player",
+    "build:captions": "npm run build --prefix Templates/remotion-captions-themes/test-player",
+    "generate:sfx": "python3 Vault/generators/generate_kinetic_sfx.py && python3 Vault/generators/generate_hud_sfx.py",
+    "generate:lottie": "python3 Vault/generators/generate_core_lottie_assets.py"
+  },
+  "keywords": [
+    "video-production",
+    "kinetic-typography",
+    "remotion",
+    "faster-whisper",
+    "auto-captions",
+    "hud-overlay",
+    "ffmpeg",
+    "ai-video"
+  ],
+  "author": "Michael Sage <i@michaelpuzyrev.ru>",
+  "license": "MIT"
+}
