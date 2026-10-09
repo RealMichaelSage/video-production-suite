@@ -108,7 +108,8 @@ VideoProduction/
 ├── 📑 Docs/                          # Документация и базы знаний
 │   ├── VIDEO_PRODUCTION_DOCK.md     # Манифест быстрого старта для ИИ
 │   ├── video_production_arsenal.md  # 10-категорийная энциклопедия инструментов
-│   └── kinetic_typography_vault.md  # Математика пружин, сплайны Безье и вирусный монтаж
+│   ├── kinetic_typography_vault.md  # Математика пружин, сплайны Безье и вирусный монтаж
+│   └── DESIGN_AND_MOTION_REFERENCES.md # Реестр мировых дизайн-платформ, Three.js и моушн-галерей
 │
 ├── 🛡️ Vault/                         # Мастер-ассеты, HUD и звуки
 │   ├── VAULT_MANUAL.md              # Документация хранилища

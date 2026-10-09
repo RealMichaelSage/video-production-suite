@@ -163,8 +163,11 @@
 * **Механика:** Каскадный вылет букв со сдвигом `stagger: 0.03s`, пружинное сглаживание `ease: "back.out(2)"`, интерполяция положения слов при переносе строк (`GSAP Flip Plugin`).
 
 ### 3.4. Three.js & WebGL 3D Typography
+* **Официальный портал и база референсов:** [threejs.org](https://threejs.org/) | [threejs.org/examples](https://threejs.org/examples/)
+* **Галерея мировых 3D-проектов:** интерактивная витрина Featured Projects на главной странице [threejs.org](https://threejs.org/) (бенчмарки уровня Bruno Simon, Merci-Michel, Apple, Shopify).
 * **Troika-three-text (`protectwise/troika`):** Генерация Signed Distance Fields (SDF) на лету в Web Worker из обычных файлов TTF/WOFF. Идеальный антиалиасинг под любыми ракурсами камеры и зумом.
-* **GLSL Shaders:** Кастомные шейдеры объема (Raymarching), неоновое свечение (Bloom), деформация текста волновым шумом Перлина.
+* **GLSL Shaders & Post-Processing:** Кастомные шейдеры объема (Raymarching), неоновое свечение (UnrealBloomPass), глубина резкости (Bokeh/DoF), деформация текста волновым шумом Перлина и симуляции частиц (GPU Particles).
+* **Полный реестр 3D и моушн-референсов:** подробный каталог эталонных платформ вынесен в отдельный документ: [`Docs/DESIGN_AND_MOTION_REFERENCES.md`](file:///Users/michaelsage/Desktop/Vibes/VideoProduction/Docs/DESIGN_AND_MOTION_REFERENCES.md).
 
 ### 3.5. Fast Python Low-Level Engine (Наш движок)
 Скрипт: [`scratch_kinetic_fast/build_ultra_fast_kinetic_reel.py`](file:///Users/michaelsage/.gemini/antigravity/brain/c6b6eb04-2347-470d-9736-57004360b9a2/scratch_kinetic_fast/build_ultra_fast_kinetic_reel.py)

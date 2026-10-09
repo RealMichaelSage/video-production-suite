@@ -57,8 +57,9 @@
 * **Тестовый стенд (Vite Preview):** `test-player/` (собран и готов к запуску через `npm run dev`).
 
 ### 📑 2.4. Базы знаний и руководства
-* Полная энциклопедия видеопроизводства: `/Users/michaelsage/Desktop/Vibes/Docs/video_production_arsenal.md`
-* Мастер-руководство по кинетической типографике: `/Users/michaelsage/Desktop/Vibes/Docs/kinetic_typography_vault.md`
+* Полная энциклопедия видеопроизводства: `Docs/video_production_arsenal.md`
+* Мастер-руководство по кинетической типографике: `Docs/kinetic_typography_vault.md`
+* База знаний визуальных референсов, 3D и моушн-дизайна (Three.js, WebGL, Awwwards): `Docs/DESIGN_AND_MOTION_REFERENCES.md`
 
 ---
 
